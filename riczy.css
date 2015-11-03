@@ -1,0 +1,67 @@
+html, body {
+  height: 100%;
+}
+
+.shadow {
+  text-shadow: 0 0 8px #000; 
+}
+
+.brand {
+  color: #555;
+  font-family: 'Alfa Slab One';
+}
+
+.jumbotron {
+  margin-bottom: 0em;  
+}
+
+.jumbotron-intro {
+  height: 100%;
+  margin-top: 0em;
+  padding-top: 7em;
+  padding-bottom: 14em;
+  background: url('images/redpepplebeach.jpg') no-repeat center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+.jumbotron-company {
+}
+
+.jumbotron-contact {
+  background-color: rgba(255, 102, 76, 1.0);
+  color: #fff;
+}
+
+.jumbotron-contact h4 {
+  padding-top: 1em;
+  padding-bottom: 0.2em;
+}
+
+.jumbotron-contact span.contact-value {
+  padding-left: 1em;
+}
+
+.jumbotron-contact a:link, a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.jumbotron-contact a:hover, a:active {
+  text-decoration: underline;
+  color: rgba(255, 165, 145, 0.5);
+}
+
+footer {
+  padding-top: 3em;
+  padding-bottom: 2em;
+  background-color: #fff;
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.9em;
+}
