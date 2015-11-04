@@ -2,10 +2,6 @@ html, body {
   height: 100%;
 }
 
-.shadow {
-  text-shadow: 0 0 7px #777; 
-}
-
 .brand {
   color: #555;
   font-family: 'Alfa Slab One';
@@ -16,16 +12,27 @@ html, body {
 }
 
 .jumbotron-intro {
-  height: 100%;
   margin-top: 0em;
   padding-top: 7em;
   padding-bottom: 14em;
+
   background: url('images/redpepplebeach1440x900-4q.jpg') no-repeat center center fixed;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
   color: white;
+  background-color: #333;
+  text-shadow: 0 0 7px #777;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+  .jumbotron-intro {
+    background-image: url('images/sample.jpg');
+  }
 }
 
 .jumbotron-company {
