@@ -15,32 +15,22 @@ html, body {
   margin-top: 0em;
   padding-top: 7em;
   padding-bottom: 14em;
-
-  background: url('images/redpepplebeach1440x900-4q.jpg') no-repeat center center fixed;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  color: white;
-  background-color: #333;
-  text-shadow: 0 0 7px #777;
+  color: #fff;
+  background-color: #222;
 }
 
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-  .jumbotron-intro {
-    background-image: url('images/redpepplebeach2136x1335-6q.jpg');
-  }
+.highlight {
+  color: #222;
+  background-color: #ffff00;
 }
 
 .jumbotron-company {
+  background-color: #fff;
 }
 
 .jumbotron-contact {
-  background-color: rgba(255, 102, 76, 1.0);
   color: #fff;
+  background-color: #bf360c;
 }
 
 .jumbotron-contact h4 {
