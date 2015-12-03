@@ -54,6 +54,8 @@ html, body {
 
 .jumbotron-legal {
   background-color: #fff;
+  margin-top: 0em;
+  padding-top: 0em;
 }
 
 .jumbotron-legal h3 {
