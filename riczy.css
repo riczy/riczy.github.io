@@ -52,6 +52,25 @@ html, body {
   color: rgba(255, 165, 145, 0.5);
 }
 
+.jumbotron-legal {
+  background-color: #fff;
+}
+
+.jumbotron-legal h3 {
+  color: #555;
+}
+
+.jumbotron-legal a:link, a:visited {
+  text-decoration: underline;
+  color: #333;
+}
+
+.jumbotron-legal a:hover, a:active {
+  text-decoration: underline;
+  background-color: #B2DFDB;
+  color: #333;
+}
+
 footer {
   padding-top: 3em;
   padding-bottom: 2em;
